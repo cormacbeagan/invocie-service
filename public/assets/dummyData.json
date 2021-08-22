@@ -1,0 +1,44 @@
+{
+  "title": "",
+  "work": [
+    {
+      "hours": 0,
+      "rate": 0,
+      "currency": "",
+      "description": ""
+    }
+  ],
+  "invoiceDetails": {
+    "date": "",
+    "supplyDate": "",
+    "invoiceNr": ""
+  },
+  "client": {
+    "name": "",
+    "address": {
+      "line1": "",
+      "line2": "",
+      "country": "",
+      "postcode": ""
+    }
+  },
+  "ownDetails": {
+    "name": "",
+    "fullName": "",
+    "address": {
+      "line1": "",
+      "line2": "",
+      "country": "",
+      "postcode": ""
+    },
+    "tel": "",
+    "email": "",
+    "homepage": ""
+  },
+  "bankDetails": {
+    "inhaber": "",
+    "IBAN": "",
+    "BIC": "",
+    "bank": ""
+  }
+}
