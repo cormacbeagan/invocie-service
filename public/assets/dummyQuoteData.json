@@ -1,0 +1,41 @@
+{
+  "title": "",
+  "work": [
+    {
+      "stage": "",
+      "cost": 0,
+      "currency": "",
+      "estimatedTime": "",
+      "title": "",
+      "description": ""
+    }
+  ],
+  "client": {
+    "name": "",
+    "address": {
+      "line1": "",
+      "line2": "",
+      "country": "",
+      "postcode": ""
+    }
+  },
+  "ownDetails": {
+    "name": "",
+    "fullName": "",
+    "address": {
+      "line1": "",
+      "line2": "",
+      "country": "",
+      "postcode": ""
+    },
+    "tel": "",
+    "email": "",
+    "homepage": ""
+  },
+  "bankDetails": {
+    "inhaber": "",
+    "IBAN": "",
+    "BIC": "",
+    "bank": ""
+  }
+}

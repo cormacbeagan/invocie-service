@@ -2,7 +2,7 @@
   <div class="form-container">
     <form @submit.prevent="handleSubmit($event)">
       <label class="button"
-        >Upload a JSON file
+        >Upload a JSON file quote
         <input type="file" @change="handleInput" style="display:none;" />
       </label>
       <button type="submit" class="button" :disabled="!jsonData">
@@ -15,13 +15,15 @@
     <pre v-if="jsonData">{{ jsonData }}</pre>
   </div>
   <footer>
-    <a class="button" href="./assets/dummyData.json" download>Dummy Data</a>
+    <a class="button" href="./assets/dummyQuoteData.json" download
+      >Dummy Data</a
+    >
   </footer>
 </template>
 
 <script>
 import { defineComponent } from "vue";
-import createPDFInvoice from "macs-pdf-invoice";
+import createPDFQuote from "macs-pdf-quote";
 
 export default defineComponent({
   components: {},
@@ -33,7 +35,7 @@ export default defineComponent({
   methods: {
     async handleSubmit() {
       console.log(this.jsonData);
-      createPDFInvoice(this.jsonData);
+      createPDFQuote(this.jsonData);
     },
     async fileToJSON(file) {
       return new Promise((resolve, reject) => {
