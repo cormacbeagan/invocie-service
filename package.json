@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "macs-pdf-invoice": "^1.0.3",
+    "macs-pdf-invoice": "^1.0.4",
     "vue": "^3.0.0"
   },
   "devDependencies": {
